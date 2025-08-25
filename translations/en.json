@@ -1,0 +1,26 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add Helium Hotspot(s)",
+        "description": "Enter one or more hotspot numbers, comma-separated (e.g., 141703,123456).",
+        "data": {
+          "hotspots": "Hotspot number(s)"
+        }
+      }
+    },
+    "error": {
+      "invalid_hotspots": "Please enter at least one numeric hotspot ID."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Helium Hotspot Options",
+        "data": {
+          "update_interval_minutes": "Update interval (minutes)"
+        }
+      }
+    }
+  }
+}
