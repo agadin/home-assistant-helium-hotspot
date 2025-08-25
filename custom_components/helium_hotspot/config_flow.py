@@ -14,7 +14,7 @@ from .const import (
 )
 
 HOTSPOT_SCHEMA = vol.Schema({
-    vol.Required(CONF_HOTSPOTS): str,  # comma-separated: e.g. "141703,123456"
+    vol.Required(CONF_HOTSPOTS): str,  # comma-separated: e.g. "9982 # ,123456"
 })
 
 OPTIONS_SCHEMA = vol.Schema({

@@ -26,7 +26,7 @@ META_RE = re.compile(
     re.I
 )
 
-# Hotspot friendly name (e.g., "Mammoth Clay Narwhal")
+# Hotspot friendly name (e.g., "Raspy Cedar Parakeet")
 HOTSPOT_NAME_RE = re.compile(
     r'<div[^>]*class="[^"]*text-3xl[^"]*"[^>]*>(.*?)</div>', re.S
 )

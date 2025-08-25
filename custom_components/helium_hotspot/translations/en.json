@@ -3,7 +3,7 @@
     "step": {
       "user": {
         "title": "Add Helium Hotspot(s)",
-        "description": "Enter one or more hotspot numbers, comma-separated (e.g., 141703,123456).",
+        "description": "Enter one or more hotspot numbers, comma-separated (e.g., 9982,123456).",
         "data": {
           "hotspots": "Hotspot number(s)"
         }

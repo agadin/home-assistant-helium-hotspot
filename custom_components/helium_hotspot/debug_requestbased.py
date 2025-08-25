@@ -102,7 +102,7 @@ def fetch_html(url: str) -> str:
 
 def main():
     ap = argparse.ArgumentParser(description="Helium Hotspot scraper (HA-friendly).")
-    ap.add_argument("--hotspot", required=True, help="Hotspot number, e.g. 141703")
+    ap.add_argument("--hotspot", required=True, help="Hotspot number, e.g. 9982")
     args = ap.parse_args()
 
     url = f"https://world.helium.com/en/network/mobile/hotspot/{args.hotspot}"
