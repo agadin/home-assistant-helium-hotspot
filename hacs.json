@@ -3,5 +3,5 @@
   "render_readme": true,
   "homeassistant": "2023.0.0",
   "country": "US",
-  "domains": ["helium_hotspot"]
+  "iot_class": "cloud_polling"
 }
