@@ -1,0 +1,18 @@
+name: Validate with hassfest
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  hassfest:
+    name: hassfest
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Runs the official Home Assistant metadata validator
+      - name: Hassfest
+        uses: home-assistant/actions/hassfest@master
