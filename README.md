@@ -82,6 +82,19 @@ Location: **Houston, Texas, United States**
 
 ---
 
+## Known Issues and Todos
+- [ ] KOWN ISSUES:
+  - Auto refresh of entity sensors does not work, need to reload integration or restart Home Assistant to see updated values.
+  - Hotspot name and location do not show up (API issue?).
+- [ ] Add more sensors (e.g. total HNT, rewards by type).
+- [ ] Add options flow for changing hotspot numbers and update interval after setup.
+- [ ] Improve error handling and user feedback (e.g. invalid hotspot number).
+- [ ] Add unit tests.
+- [ ] Add support for Unit conversion (e.g. bytes to MB/GB).
+- [ ] Figure out way to get more granular 24 hour data (e.g. daily HNT earned, not just 30 day).
+- [ ] Add support for Helium IoT hotspots (not just Mobile) using the same webscraping technique just different URL base.
+
+
 ## 🛠️ Troubleshooting
 
 - If sensors don’t appear, enable debug logging:
