@@ -1,12 +1,12 @@
 {
   "domain": "helium_hotspot",
   "name": "Helium Hotspot",
-  "version": "0.1.5",
-  "documentation": "https://github.com/agadin/home-assistant-helium-hotspot",
-  "issue_tracker": "https://github.com/agadin/home-assistant-helium-hotspot/issues",
   "codeowners": ["@agadin"],
-  "requirements": ["httpx>=0.27.0"],
-  "iot_class": "cloud_polling",
+  "config_flow": true,
+  "documentation": "https://github.com/agadin/home-assistant-helium-hotspot",
   "integration_type": "hub",
-  "config_flow": true
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/agadin/home-assistant-helium-hotspot/issues",
+  "requirements": ["httpx>=0.27.0"],
+  "version": "0.1.5"
 }
